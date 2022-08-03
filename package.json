@@ -1,25 +1,24 @@
 {
-  "name": "discord-voicenotify",
+  "name": "discord-voice-bot",
   "version": "1.0.0",
   "description": "",
-  "main": "voicenotify.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node voicenotify"
+    "start": "node voice-bot"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vpctorr/DiscordBots.git"
+    "url": "git+https://github.com/sethbaird01/voice-bot.git"
   },
-  "author": "vpctorr",
+  "author": "sethbaird01",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vpctorr/DiscordBots/issues"
+    "url": "https://github.com/sethbaird01/voice-bot/issues"
   },
-  "homepage": "https://github.com/vpctorr/DiscordBots#readme",
+  "homepage": "https://github.com/sethbaird01/voice-bot#readme",
   "dependencies": {
     "dblapi.js": "^2.4.0",
     "discord.js": "^12.2.0",
-    "dotenv": "^8.2.0",
-    "firebase-admin": "^8.12.1"
+    "dotenv": "^8.2.0"
   }
 }
